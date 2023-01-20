@@ -11,3 +11,6 @@ for clearing topic wise concept
 | :-: | :----------------------------: | :-------: |
 | 01  |     Props      | [Details](./props/src/App.js) |  
 | 02  |     State System & Event System      | [Details](./animals/src/) |
+| 03  |     API Call in react      | [Details](./pics_api/src/api.js) |
+| 04  |     Handling Text Inputs in React     | [Details](./animals/src/) |
+| 02  |     Child To Parent Communication(Observe  Searchbar.js and App.js)      | [Details](./pics_api/src/) |
