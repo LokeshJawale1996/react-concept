@@ -7,3 +7,5 @@
 ##### 3) We have a function that will turn a search term into an array of images objects.
 
 ##### 4) The array of image objects need to get into the ImageList component
+
+
