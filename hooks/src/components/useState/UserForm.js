@@ -14,10 +14,16 @@ function UserForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(user);
+    alert(`Hello ${user.name}, you are successfully registered`);
+    setUser({
+        name: "",
+        email: "",
+        password: "",
+      })
   };
 
   return (
-    <div>
+    <div className="border-b-2 border-slate-900">
       <h2 className="text-2xl font-semibold py-2">
         4 useState Example:Sign Up(Object)
       </h2>
