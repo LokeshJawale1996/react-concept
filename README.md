@@ -14,5 +14,5 @@ for clearing topic wise concept
 | 03  |     API Call in react      | [Details](./pics_api/src/api.js) |
 | 04  |     Handling Text Inputs in React     | [Details](./animals/src/) |
 | 05  |     Child To Parent Communication(Observe  Searchbar.js and App.js)      | [Details](./pics_api/src/) |
-| 06  |     Hooks)      | [Details](./hooks/src/components/) |
+| 06  |     Hooks      | [Details](./hooks/src/components/) |
 
