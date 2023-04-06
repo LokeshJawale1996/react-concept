@@ -1,6 +1,7 @@
 import './App.css';
+import MainUseCallbackComponent from './components/useCallback/MainUseCallbackComponent';
 // import MainUseContext from './components/useContext/MainUseContext';
-import UseReducer from './components/useReducer/UseReducer';
+// import UseReducer from './components/useReducer/UseReducer';
 // import { MainUseStateComponent } from './components/useState/MainUseStateComponent';
 // import MainUseEffect from './components/useEffect/MainUseEffect';
 function App() {
@@ -10,7 +11,9 @@ function App() {
      {/* <MainUseStateComponent/> */}
      {/* <MainUseEffect/> */}
      {/* <MainUseContext/> */}
-     <UseReducer/>
+     {/* <UseReducer/> */}
+
+     <MainUseCallbackComponent/>
     </div>
   );
 }

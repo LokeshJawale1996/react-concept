@@ -6,6 +6,9 @@
 | :-: | :----------------------------: | :-------: |
 | 01  |     useState     | [Codes](./src/components/useState/) |  
 | 02  |     useEffect    | [Codes](./src/components/useEffect/) |  
+| 03  |     useContext    | [Codes](./src/components/useContext/) |  
+| 04  |     useReducer    | [Codes](./src/components/useReducer/) |  
+| 03  |     useCallback   | [Codes](./src/components/useCallback/) |  
 
 
 ## 1.useState
