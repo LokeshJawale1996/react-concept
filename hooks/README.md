@@ -8,7 +8,8 @@
 | 02  |     useEffect    | [Codes](./src/components/useEffect/) |  
 | 03  |     useContext    | [Codes](./src/components/useContext/) |  
 | 04  |     useReducer    | [Codes](./src/components/useReducer/) |  
-| 03  |     useCallback   | [Codes](./src/components/useCallback/) |  
+| 05  |     useCallback   | [Codes](./src/components/useCallback/) |  
+| 06  |     useMemo   | [Codes](./src/components/useMemo/) |  
 
 
 ## 1.useState
