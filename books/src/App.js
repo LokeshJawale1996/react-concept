@@ -1,19 +1,22 @@
-import './App.css';
-// import {useSate} from 'react'
-import BookCreate from './components/BookCreate';
+import "./App.css";
+import { useState } from "react";
+import BookCreate from "./components/BookCreate";
+import BookList from './components/BookList'
 function App() {
-  // const [books,setBooks] = useSate([]);
+  const [books, setBooks] = useState([]);
   const createBook = (title) => {
     // books.push({id:123,title:title});
-   console.log("Need to add book with:" ,title);
-  // setBooks(books);
-  // console.log(books);
-  }
+    console.log("Need to add book with:", title);
+    const updatedBooks = [...books, { id: Math.round(Math.random() *9999), title }];
+    setBooks(updatedBooks);
+    console.log(books);
+  };
 
   return (
-    <div className="App">
-      {/* {books.length} */}
-    <BookCreate onCreate={createBook}/>
+    <div className="app">
+      
+      <BookList books={books}/>
+      <BookCreate onCreate={createBook} />
     </div>
   );
 }

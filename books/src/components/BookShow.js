@@ -1,6 +1,6 @@
-function BookShow(){
-    return <div>
-        BookShow
+function BookShow({book}){
+    return <div className="book-show"> 
+        {book.title}
     </div>
 }
 
