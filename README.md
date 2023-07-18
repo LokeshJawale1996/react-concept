@@ -15,4 +15,5 @@ for clearing topic wise concept
 | 04  |     Handling Text Inputs in React     | [Details](./animals/src/) |
 | 05  |     Child To Parent Communication(Observe  Searchbar.js and App.js)      | [Details](./pics_api/src/) |
 | 06  |     Hooks      | [Details](./hooks/src/components/) |
+| 07  | Cheatsheet-state updates |[Reference](https://state-updates.vercel.app/) |
 

@@ -10,6 +10,7 @@
 | 04  |     useReducer    | [Codes](./src/components/useReducer/) |  
 | 05  |     useCallback   | [Codes](./src/components/useCallback/) |  
 | 06  |     useMemo   | [Codes](./src/components/useMemo/) |  
+| 07  |     useRef   | [Codes](./src/components/useRef/) |  
 
 
 ## 1.useState
@@ -44,7 +45,7 @@
 #### This hook lets you use a reducer function, similar to the one used with the useState hook, to manage state in your functional components. It can be useful for handling complex state updates that depend on the previous state.
 
 ## 5.useRef: 
-#### This hook lets you create a reference to a DOM element or a value that doesn't change across renderings. It's useful for accessing elements or values that don't change, such as the height of a DOM element, or for holding a value between renderings, such as a timer ID.
+#### This hook lets you create/update a reference to a DOM element or a value that doesn't change across renderings. It's useful for accessing elements or values that don't change, such as the height of a DOM element, or for holding a value between renderings, such as a timer ID.
 
 ## 6.useMemo: 
 #### This hook lets you optimize your components by memorizing the results of expensive computations. The memorized value will be returned and re-used as long as the inputs don't change.
