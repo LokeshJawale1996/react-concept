@@ -41,3 +41,6 @@
 | 03  |     Update Books     | localhost:3001/books/1 | PUT     | { "title":"New Title" }   |{"id":1,"title":New Title"}   |
 | 04  |     Delete Books     | localhost:3001/books/1 | DELETE  |            -              |{"id":1,"title":Harry Potter"}|
 
+## Important Points
+#### We need axios to make the api request to JSON server
+#### so install axios (npm install axios)
