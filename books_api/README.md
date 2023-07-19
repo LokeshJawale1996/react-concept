@@ -2,30 +2,42 @@
 
 [cheatSheet for state changes](https://state-updates.vercel.app/)
 
-## handleling Forms
-#### 1) BookCreate Component
-##### i) BookCreate is Child component of Parent Component App
-##### ii)as soon as user entered title and pressed enter. this child component need to tell his parent that book is added
-##### iii) for telling parent book details BookCreate component receives onCreate prop from parent component which passes title name on submitting form in child component to parent component
+# data persistence with API requests
+## Things we need to do
+#### i)Create the API & understand how it works
+#### ii)When app starts up,make a request to API to get the current list of books
+#### iii)When user creates/edits/deletes a book,update the API, then update local data.
 
-#### 2) App Component
-##### i)onCreate prop which we are passing to child component BookCreate which excutes createBook function
-##### ii)books,onDelete,ondEdit props which we are passing to child component BookList.
-##### iii) books-complete object
-##### iv)onDelete which executes deleteBookById function
-##### v)onEdit which executes editBookById function
-#### 3) BookList Component
-##### i)receives props from parent componentb books, onDelete, onEdit
-##### ii)this component rendered BookShow component by mapping on all books
 
-#### 4)  BookShow Component
-##### i)receives props from parent componentb books, onDelete, onEdit
-##### ii) showing title and if we click on edit button by setting showEdit true showing BookEdit component to edit title
-##### iii) after clicking on Delete button handleDeleteFunction passed book.id in onDelete props
-##### iv)when we submit the onEdit Component form we are passing the id as well as newTitle using function handleSubmit in BookShow Component
+## API Request Flow
+#### i)React App/UI/User Request for list of books to API Server
+#### ii)API Server send back Response with list of books to  React App/UI/User
 
-#### 5) BookEdit Component
-##### updating the title in this component
-##### book - An object with id and title
-##### onSubmit A Function that is called when a user submits the form
-##### onSubmit -we are passing id as well as updatedTitle to its parent BookShow
+
+## JSON Server Setup
+#### i)install JSON-Server with NPM at the terminal (npm install json-server)
+#### ii)Create a db.json file.This is where data will be stored.
+#### iii)create a command to run JSON-Server in package.json scripts("server":"json-server -p 3001 --watch db.json")#### iv)Run the command!(npm run server)
+
+
+## It now takes two commands to start the project up
+#### i)npm run start (starts the react dev server) 
+#### ii)npm run server(starts JSON-Server)
+
+## "json-server -p 3001 --watch db.json",
+####  -p 3001 : changes the port the server listen to
+#### --watch db.json : Tells the server to store data in the db.json file
+
+## db.json  { "books" : [] } 
+#### "books" : Tells json-server that we want to store a list of "books".
+#### [] : Book objects will eventually show up here.
+
+## API's
+
+|  #  |  Goal   | URL | Method | Request Body | Response Body |
+| :-: | :------------------: | :--------------------: |:-------:| :------------------------:| :--------------------------: |
+| 01  |     Create Book      | localhost:3001/books   | POST    | { "title":"Hary Potter" } |{"id":1,"title":Harry Potter"}|
+| 02  |     Get All Books    | localhost:3001/books   | GET     |            -              |{"id":1,"title":Harry Potter"}|
+| 03  |     Update Books     | localhost:3001/books/1 | PUT     | { "title":"New Title" }   |{"id":1,"title":New Title"}   |
+| 04  |     Delete Books     | localhost:3001/books/1 | DELETE  |            -              |{"id":1,"title":Harry Potter"}|
+
