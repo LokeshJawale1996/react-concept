@@ -9,11 +9,12 @@ for clearing topic wise concept
 
 |  #  |            Topic             | Source |
 | :-: | :----------------------------: | :-------: |
-| 01  |     Props      | [Details](./props/src/App.js) |  
-| 02  |     State System & Event System      | [Details](./animals/src/) |
-| 03  |     API Call in react      | [Details](./pics_api/src/api.js) |
-| 04  |     Handling Text Inputs in React     | [Details](./animals/src/) |
-| 05  |     Child To Parent Communication(Observe  Searchbar.js and App.js)      | [Details](./pics_api/src/) |
-| 06  |     Hooks      | [Details](./hooks/src/components/) |
-| 07  | Cheatsheet-state updates |[Reference](https://state-updates.vercel.app/) |
-
+| 01  |     Props      | [Code](./props/src/App.js) |  
+| 02  |     State System & Event System      | [Code](./animals/src/) |
+| 03  |     API Call in react      | [Cdoe](./pics_api/src/api.js) |
+| 04  |     Handling Text Inputs in React     | [Code](./animals/src/) |
+| 05  |     Child To Parent Communication(Observe  Searchbar.js and App.js)      | [Code](./pics_api/src/) |
+| 06  |     Hooks      | [Code](./hooks/src/components/) |
+| 07  |     Cheatsheet-state updates |[Reference](https://state-updates.vercel.app/) |
+| 08  |     Handling forms |[Code](./books/src/) |
+| 09  |     Data Persistence With API Request(GET,POST,DELETE,PATCH)|[Code](./books_api/src/) |
