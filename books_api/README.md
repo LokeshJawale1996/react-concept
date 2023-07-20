@@ -1,4 +1,4 @@
-![Structure of App](./public/structure.png)
+![Structure of App](./public/structure2.png)
 
 [cheatSheet for state changes](https://state-updates.vercel.app/)
 
