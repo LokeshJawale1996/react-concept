@@ -1,7 +1,6 @@
 # react-concept
 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=lokeshjawale96.react-concept)
 
 for clearing topic wise concept
 
@@ -18,3 +17,7 @@ for clearing topic wise concept
 | 07  |     Cheatsheet-state updates |[Reference](https://state-updates.vercel.app/) |
 | 08  |     Handling forms |[Code](./books/src/) |
 | 09  |     Data Persistence With API Request(GET,POST,DELETE,PATCH)|[Code](./books_api/src/) |
+| 10  |     Context System|[Code](./context/src/) |
+| 11  |     Custom Hook |[Code](./context/src/hooks/use-books-context.js) |
+| 12  |     Custom Navigation and Routing System:Button |[Code](./comps/src/components/Button.js)|
+| 13  |     State Design Process:Accordian|[Code](./comps/src/components/Button.js)|
