@@ -14,8 +14,8 @@
 
 #### some Custom Hooks in this Project
 
-|  #  |   Hook Name   | Path                               |
-| :-: | :-----------: | :--------------------------------: |
-| 01  | useNavigation | [code](../hooks/use-Navigation.js) |
-| 02  |  useCounter   | [code](../hooks/use-Counter.js)    |
-| 01  |    useSort    | [code](../hooks/use-Sort.js)       |
+|  #  |   Hook Name   |                Path                |         Path of Component in which this hook is used         |
+| :-: | :-----------: | :--------------------------------: | :----------------------------------------------------------: |
+| 01  | useNavigation | [code](../hooks/use-Navigation.js) | [code1](../components/Link.js) [code2](../components/Route.js) |
+| 02  |  useCounter   |  [code](../hooks/use-Counter.js)   |               [code](../pages/CounterPage.js)                |
+| 01  |    useSort    |    [code](../hooks/use-Sort.js)    |            [code](../components/SortableTable.js)            |
