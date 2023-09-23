@@ -1,16 +1,19 @@
 import Table from "../components/Table";
-
+import SortableTable from "../components/SortableTable";
 function TablePage() {
   const data = [
     { name: "Orange", color: "bg-orange-500", score: 5 },
     { name: "Apple", color: "bg-red-300", score: 3 },
-    { name: "Banan", color: "bg-yellow-500", score: 1 },
+    { name: "Banana", color: "bg-yellow-500", score: 1 },
     { name: "Lime", color: "bg-green-500", score: 4 },
+    { name: "Cherry", color: "bg-red-700", score: 2.5 },
+
   ];
   const config = [
     { 
       label:"Name",
-      render:(fruit) => fruit.name
+      render:(fruit) => fruit.name,
+      sortValue:(fruit)=> fruit.name,
     },
     { 
       label:"Color",
@@ -18,12 +21,14 @@ function TablePage() {
     },
     { 
       label:"Score",
-      render:(fruit) => fruit.score
-
+      render:(fruit) => fruit.score,
+      sortValue:(fruit) => fruit.score,
+    
     },
     { 
       label:"Score Squared",
-      render:(fruit) => fruit.score * 2,
+      render:(fruit) => fruit.score ** 2,
+      sortValue:(fruit) => fruit.score ** 2,
 
     },
 ];
@@ -33,7 +38,10 @@ const KeyFn = (fruit) => {
 
   return (
     <div>
+      
       <Table data={data} config={config} keyFn={KeyFn} />
+
+      <SortableTable data={data} config={config} keyFn={KeyFn} />
     </div>
   );
 }
