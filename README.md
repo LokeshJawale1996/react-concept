@@ -22,4 +22,6 @@ for clearing topic wise concept
 | 12  |     Custom Navigation and Routing System:Button |[Code](./comps/src/components/Button.js)|
 | 13  |     State Design Process:Accordian|[Code](./comps/src/components/Accordion.js)|
 | 14  |     Making Navigation Reusable|[Code](./comps/src/App.js)|
-| 15  |     Modal|[Code](./comps/src/pages/ModalPage.js)|
+| 15  |     Modal Window |[Code](./comps/src/pages/ModalPage.js)|
+| 16  |     Table|[Code](./comps/src/components/Table.js)|
+| 17  |     SortableTable|[Code](./comps/src/components/SortableTable.js)|
