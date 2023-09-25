@@ -24,3 +24,4 @@ for clearing topic wise concept
 | 16  |                             Table                              |     [Code](./comps/src/components/Table.js)      |
 | 17  |                         SortableTable                          | [Code](./comps/src/components/SortableTable.js)  |
 | 18  |                  Custom Hook Creation Process                  |     [Code](./comps/src/info/CustomHooks.md)      |
+| 19  |                       useReducer Example                       |     [Code](./comps/src/pages/CounterPage.js)     |
