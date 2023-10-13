@@ -29,13 +29,13 @@ function SongPlaylist() {
   });
 
   return (
-    <div className="content">
-      <div className="table-header">
-        <h3 className="subtitle is-3">Song Playlist</h3>
-        <div className="buttons">
+    <div>
+      <div className="flex justify-between flex-wrap m-5 gap-2">
+        <h3 className="text-2xl font-semibold">Song Playlist</h3>
+        <div>
           <button
             onClick={() => handleSongAdd(createRandomSong())}
-            className="button is-link"
+            className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 border border-blue-700 rounded"
           >
             + Add Song to Playlist
           </button>

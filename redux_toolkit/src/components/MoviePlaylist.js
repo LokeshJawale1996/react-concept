@@ -29,13 +29,13 @@ function MoviePlaylist() {
   });
 
   return (
-    <div className="content">
-      <div className="table-header">
-        <h3 className="subtitle is-3">Movie Playlist</h3>
-        <div className="buttons">
+    <div>
+      <div className="flex justify-between flex-wrap m-5">
+        <h3 className="text-2xl font-semibold">Movie Playlist</h3>
+        <div>
           <button
             onClick={() => handleMovieAdd(createRandomMovie())}
-            className="button is-link"
+            className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 border border-blue-700 rounded"
           >
             + Add Movie to Playlist
           </button>

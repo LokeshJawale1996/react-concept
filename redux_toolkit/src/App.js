@@ -8,8 +8,8 @@ export default function App() {
   };
 
   return (
-    <div className="container is-fluid">
-      <button onClick={() => handleResetClick()} className="button is-danger">
+    <div className="container mx-4">
+      <button onClick={() => handleResetClick()} className="bg-red-400 hover:bg-red-500 text-white py-2 px-4 border border-red-500 rounded">
         Reset Both Playlists
       </button>
       <hr />
